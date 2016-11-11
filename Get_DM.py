@@ -1,10 +1,10 @@
 from twitter import *
 
 auth = OAuth(
-    consumer_key='7fX7vzW4v6KKXPC3S3aJB0StT',
-    consumer_secret='oHfxsfwCgHQeFtvDK6g0xtSH5VpHT1EPTkON5o8YA1xNVMliIo',
-    token='796504375971745792-MSIyWeUeyHq2ccKshZZBu8k0LPI2DBv',
-    token_secret='fWesYZ10fkLF5LbzaAuiVtnx9aDjw4egZFf5w4toVk1PX'
+    consumer_key='asdf',
+    consumer_secret='asdf',
+    token='asdf',
+    token_secret='asdf'
 )
 
 twitter_userstream = TwitterStream(auth=auth, domain='userstream.twitter.com')
